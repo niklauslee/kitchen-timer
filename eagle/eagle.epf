@@ -1,0 +1,21 @@
+[Eagle]
+Version="07 04 00"
+Platform="Mac OS X"
+Serial="62191E841E-LSR-WLM-1EL"
+Globals="Globals"
+Desktop="Desktop"
+
+[Globals]
+AutoSaveProject=1
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/diode.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/led.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/linear.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/rcl.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/supply1.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/supply2.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/switch-omron.lbr"
+UsedLibrary="/Applications/EAGLE-7.4.0/lbr/switch.lbr"
+UsedLibrary="/Users/niklaus/Documents/eagle/SparkFun-Eagle-Libraries/SparkFun-DigitalIC.lbr"
+
+[Desktop]
+Screen="2560 1440"
