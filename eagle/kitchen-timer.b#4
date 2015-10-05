@@ -142,6 +142,10 @@
 <wire x1="100" y1="0" x2="100" y2="80" width="0" layer="20"/>
 <wire x1="100" y1="80" x2="0" y2="80" width="0" layer="20"/>
 <wire x1="0" y1="80" x2="0" y2="0" width="0" layer="20"/>
+<hole x="5.08" y="74.93" drill="3.2"/>
+<hole x="5.08" y="5.08" drill="3.2"/>
+<hole x="95.25" y="5.08" drill="3.2"/>
+<hole x="95.25" y="74.93" drill="3.2"/>
 </plain>
 <libraries>
 <library name="SparkFun-DigitalIC">

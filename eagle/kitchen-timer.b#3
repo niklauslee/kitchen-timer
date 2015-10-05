@@ -1903,28 +1903,47 @@ design rules under a new name.</description>
 <elements>
 <element name="U1" library="SparkFun-DigitalIC" package="DIL28-3" value="ATMEGA328P_PDIP" x="62.23" y="30.48" rot="R270"/>
 <element name="Q1" library="special" package="QS" value="16M" x="46.99" y="11.43" rot="R270"/>
-<element name="C1" library="rcl" package="C025-025X050" value="22pF" x="38.1" y="13.97"/>
-<element name="C2" library="rcl" package="C025-025X050" value="22pF" x="38.1" y="8.89"/>
-<element name="IC1" library="linear" package="TO220V" value="7805TV" x="69.85" y="66.04" rot="R270"/>
+<element name="C1" library="rcl" package="C025-025X050" value="22pF" x="38.1" y="13.97" smashed="yes">
+<attribute name="NAME" x="33.274" y="14.224" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="35.814" y="11.176" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="C2" library="rcl" package="C025-025X050" value="22pF" x="38.1" y="8.89" smashed="yes">
+<attribute name="NAME" x="33.274" y="9.144" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="35.814" y="6.096" size="1.27" layer="27" ratio="10"/>
+</element>
+<element name="IC1" library="linear" package="TO220V" value="7805TV" x="69.85" y="66.04" smashed="yes" rot="R270">
+<attribute name="NAME" x="72.6948" y="69.85" size="1.27" layer="25" ratio="10" rot="R270"/>
+<attribute name="VALUE" x="71.12" y="69.85" size="1.27" layer="27" ratio="10" rot="R270"/>
+</element>
 <element name="D1" library="diode" package="D-7.5" value="1N4001" x="63.5" y="74.93" rot="R180"/>
 <element name="S1" library="switch" package="255SB" value="PWR" x="41.91" y="72.39"/>
-<element name="C3" library="rcl" package="E2,5-6E" value="47uF" x="55.88" y="69.85"/>
+<element name="C3" library="rcl" package="E2,5-6E" value="47uF" x="55.88" y="69.85" smashed="yes">
+<attribute name="NAME" x="58.547" y="71.374" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="58.547" y="67.31" size="1.27" layer="27" ratio="10"/>
+</element>
 <element name="C4" library="rcl" package="E2,5-6E" value="47uF" x="55.88" y="60.96"/>
 <element name="R1" library="rcl" package="0204/7" value="1K" x="46.99" y="58.42" rot="R90"/>
 <element name="R2" library="rcl" package="0204/7" value="10K" x="31.75" y="59.69" rot="R270"/>
-<element name="S3" library="switch-omron" package="B3F-10XX" value="1MIN" x="90.17" y="22.86">
+<element name="S3" library="switch-omron" package="B3F-10XX" value="1MIN" x="90.17" y="22.86" smashed="yes">
 <attribute name="OC_FARNELL" value="176432" x="90.17" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="90.17" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MF" value="" x="90.17" y="22.86" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="90.17" y="22.86" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="84.582" y="22.733" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="87.122" y="17.78" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="S2" library="switch-tact" package="DTS-3" value="DTS-3" x="25.4" y="59.69" rot="R90"/>
+<element name="S2" library="switch-tact" package="DTS-3" value="DTS-3" x="25.4" y="59.69" smashed="yes" rot="R90">
+<attribute name="NAME" x="22.86" y="58.42" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="29.21" y="57.15" size="1.27" layer="27" rot="R90"/>
+</element>
 <element name="LED1" library="led" package="LED5MM" value="RED" x="40.64" y="58.42" rot="R90"/>
-<element name="POWER" library="con-wago-508" package="W237-132" value="+9V" x="26.67" y="71.12">
+<element name="POWER" library="con-wago-508" package="W237-132" value="+9V" x="26.67" y="71.12" smashed="yes">
 <attribute name="MF" value="" x="26.67" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="26.67" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.67" y="71.12" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.67" y="71.12" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="17.78" y="69.215" size="1.27" layer="27" ratio="10"/>
+<attribute name="NAME" x="22.86" y="66.802" size="1.27" layer="25" ratio="10"/>
 </element>
 <element name="C5" library="rcl" package="C025-025X050" value="0.1uF" x="72.39" y="41.91" rot="R270"/>
 <element name="C6" library="rcl" package="C025-025X050" value="0.1uF" x="52.07" y="30.48" rot="R90"/>
@@ -1940,23 +1959,29 @@ design rules under a new name.</description>
 <element name="R8" library="rcl" package="0204/7" value="200" x="25.4" y="34.29" rot="R180"/>
 <element name="R9" library="rcl" package="0204/7" value="200" x="25.4" y="31.75" rot="R180"/>
 <element name="R10" library="rcl" package="0204/7" value="200" x="25.4" y="29.21" rot="R180"/>
-<element name="S4" library="switch-omron" package="B3F-10XX" value="5MIN" x="90.17" y="33.02">
+<element name="S4" library="switch-omron" package="B3F-10XX" value="5MIN" x="90.17" y="33.02" smashed="yes">
 <attribute name="MF" value="" x="90.17" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="90.17" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="90.17" y="33.02" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="90.17" y="33.02" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="84.582" y="32.893" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="87.122" y="27.94" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="S5" library="switch-omron" package="B3F-10XX" value="CANCEL" x="90.17" y="44.45">
+<element name="S5" library="switch-omron" package="B3F-10XX" value="CANCEL" x="90.17" y="44.45" smashed="yes">
 <attribute name="MF" value="" x="90.17" y="44.45" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="90.17" y="44.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="90.17" y="44.45" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="90.17" y="44.45" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="84.582" y="44.323" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="87.122" y="39.37" size="1.27" layer="27" ratio="10"/>
 </element>
-<element name="S6" library="switch-omron" package="B3F-10XX" value="START" x="90.17" y="54.61">
+<element name="S6" library="switch-omron" package="B3F-10XX" value="START" x="90.17" y="54.61" smashed="yes">
 <attribute name="MF" value="" x="90.17" y="54.61" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="B3F-1000" x="90.17" y="54.61" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="36M3542" x="90.17" y="54.61" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="176432" x="90.17" y="54.61" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="84.582" y="54.483" size="1.27" layer="25" ratio="10"/>
+<attribute name="VALUE" x="87.122" y="49.53" size="1.27" layer="27" ratio="10"/>
 </element>
 <element name="BUZZER1" library="buzzer" package="F/TMB" value="F/TMB" x="78.74" y="8.89" rot="R180">
 <attribute name="MF" value="" x="78.74" y="8.89" size="1.778" layer="27" rot="R180" display="off"/>
